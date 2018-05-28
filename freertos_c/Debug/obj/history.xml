@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\freertos_c\sw_components\startup -I..\..\..\workspace\freertos_c\hwr_components\pheripherial -I..\..\..\workspace\freertos_c\RTOS\portable\ARM_CM0 -I..\..\..\workspace\freertos_c\hwr_components -I..\..\..\workspace\freertos_c -I..\..\..\workspace\freertos_c\stm32_lib\inc -I..\..\..\workspace\freertos_c\sw_components\led -I..\..\..\workspace\freertos_c\hwr_components\cmsis_core -I..\..\..\workspace\freertos_c\hwr_components\cmsis_boot -I..\..\..\workspace\freertos_c\RTOS -I..\..\..\workspace\freertos_c\sw_components\msg -I..\..\..\workspace\freertos_c\sw_components\active_task -I..\..\..\workspace -I..\..\.. -I..\..\..\workspace\freertos_c\sw_components\button -I..\..\..\workspace\freertos_c\RTOS\include -I..\..\..\workspace\freertos_c\stm32_lib -I..\..\..\workspace\freertos_c\sw_components -I..\..\..\workspace\freertos_c\RTOS\portable">
+      <target file="init_gpio.o" lastModified="15b1281186d">
+         <source file="..\..\..\sw_components\startup\init_gpio.c" lastModified="15b1280eab9"/>
+      </target>
+      <target file="StartupLedItem.o" lastModified="15b12811676">
+         <source file="..\..\..\sw_components\led\StartupLedItem.c" lastModified="15b0f6c52b9"/>
+      </target>
+      <target file="startup_components.o" lastModified="15b128118f4">
+         <source file="..\..\..\sw_components\startup\startup_components.c" lastModified="15b0f7f681d"/>
+      </target>
+      <target file="tasks.o" lastModified="15b12811ade">
+         <source file="..\..\..\RTOS\tasks.c" lastModified="154cefaea80"/>
+      </target>
+      <target file="StartupButtonItem.o" lastModified="15b128114c6">
+         <source file="..\..\..\sw_components\button\StartupButtonItem.c" lastModified="15b126a12bb"/>
+      </target>
+      <target file="event_groups.o" lastModified="15b12812396">
+         <source file="..\..\..\RTOS\event_groups.c" lastModified="154cefae60d"/>
+      </target>
+      <target file="croutine.o" lastModified="15b128121f9">
+         <source file="..\..\..\RTOS\croutine.c" lastModified="154cefae60d"/>
+      </target>
+      <target file="MsgBase.o" lastModified="15b12811bdc">
+         <source file="..\..\..\sw_components\msg\MsgBase.c" lastModified="15b0c71ba43"/>
+      </target>
+      <target file="LedActiveTask.o" lastModified="15b12812617">
+         <source file="..\..\..\sw_components\led\LedActiveTask.c" lastModified="15b0f6c4abc"/>
+      </target>
+      <target file="startup_peripheries.o" lastModified="15b128123fd">
+         <source file="..\..\..\sw_components\startup\startup_peripheries.c" lastModified="15913923860"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="15b128122da">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="15b12739677"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="15b12811b63">
+         <source file="..\..\..\hwr_components\cmsis_boot\system_stm32f0xx_temp.c" lastModified="1590a52649f"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="15b12811d36">
+         <source file="..\..\..\hwr_components\pheripherial\stm32f0xx_gpio.c" lastModified="1590a52a24c"/>
+      </target>
+      <target file="heap_2.o" lastModified="15b128126ba">
+         <source file="..\..\..\RTOS\portable\MemMang\heap_2.c" lastModified="154cefae921"/>
+      </target>
+      <target file="queue.o" lastModified="15b12812088">
+         <source file="..\..\..\RTOS\queue.c" lastModified="154cefaea6c"/>
+      </target>
+      <target file="ActiveTask.o" lastModified="15b12811542">
+         <source file="..\..\..\sw_components\active_task\ActiveTask.c" lastModified="15b0f6c528b"/>
+      </target>
+      <target file="ComponentManager.o" lastModified="15b12811c73">
+         <source file="..\..\..\sw_components\active_task\ComponentManager.c" lastModified="15b0f6cfc35"/>
+      </target>
+      <target file="stm32f0xx_syscfg.o" lastModified="15b12812511">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_syscfg.c" lastModified="15b1278bacf"/>
+      </target>
+      <target file="Led.o" lastModified="15b12812485">
+         <source file="..\..\..\sw_components\led\Led.c" lastModified="15b0f29aa71"/>
+      </target>
+      <target file="list.o" lastModified="15b12811ddb">
+         <source file="..\..\..\RTOS\list.c" lastModified="154cefae65a"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="15b12811412">
+         <source file="..\..\..\hwr_components\pheripherial\stm32f0xx_rcc.c" lastModified="1590a52a28a"/>
+      </target>
+      <target file="port.o" lastModified="15b12811e74">
+         <source file="..\..\..\RTOS\portable\ARM_CM0\port.c" lastModified="154cefae6f0"/>
+      </target>
+      <target file="timers.o" lastModified="15b128117e9">
+         <source file="..\..\..\RTOS\timers.c" lastModified="154cefaea8a"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="15b12812741">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="15b1278696e"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="15b128115d7">
+         <source file="..\..\..\hwr_components\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1590a526422"/>
+      </target>
+      <target file="startup_boot.o" lastModified="15b12811342">
+         <source file="..\..\..\sw_components\startup\startup_boot.c" lastModified="1590a65118a"/>
+      </target>
+      <target file="Msg.o" lastModified="15b12811701">
+         <source file="..\..\..\sw_components\msg\Msg.c" lastModified="15b0f4f55c4"/>
+      </target>
+      <target file="ComponentsName.o" lastModified="15b12812179">
+         <source file="..\..\..\sw_components\active_task\ComponentsName.c" lastModified="15b0cc887c2"/>
+      </target>
+      <target file="main.o" lastModified="15b128115ae">
+         <source file="..\..\..\main.c" lastModified="1597eecbc15"/>
+      </target>
+   </processor>
+</history>

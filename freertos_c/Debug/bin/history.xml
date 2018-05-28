@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=freertos_c.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\freertos_c -TC:\CooCox\CoIDE\configuration\ProgramData\freertos_c/arm-gcc-link.ld -g">
+      <target file="freertos_c.elf" lastModified="15b12812bc5">
+         <source file="..\obj\startup_boot.o" lastModified="15b12811342"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="15b12811412"/>
+         <source file="..\obj\StartupButtonItem.o" lastModified="15b128114c6"/>
+         <source file="..\obj\ActiveTask.o" lastModified="15b12811542"/>
+         <source file="..\obj\main.o" lastModified="15b128115ae"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="15b128115d7"/>
+         <source file="..\obj\StartupLedItem.o" lastModified="15b12811676"/>
+         <source file="..\obj\Msg.o" lastModified="15b12811701"/>
+         <source file="..\obj\timers.o" lastModified="15b128117e9"/>
+         <source file="..\obj\init_gpio.o" lastModified="15b1281186d"/>
+         <source file="..\obj\startup_components.o" lastModified="15b128118f4"/>
+         <source file="..\obj\tasks.o" lastModified="15b12811ade"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="15b12811b63"/>
+         <source file="..\obj\MsgBase.o" lastModified="15b12811bdc"/>
+         <source file="..\obj\ComponentManager.o" lastModified="15b12811c73"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="15b12811d36"/>
+         <source file="..\obj\list.o" lastModified="15b12811ddb"/>
+         <source file="..\obj\port.o" lastModified="15b12811e74"/>
+         <source file="..\obj\queue.o" lastModified="15b12812088"/>
+         <source file="..\obj\ComponentsName.o" lastModified="15b12812179"/>
+         <source file="..\obj\croutine.o" lastModified="15b128121f9"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="15b128122da"/>
+         <source file="..\obj\event_groups.o" lastModified="15b12812396"/>
+         <source file="..\obj\startup_peripheries.o" lastModified="15b128123fd"/>
+         <source file="..\obj\Led.o" lastModified="15b12812485"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="15b12812511"/>
+         <source file="..\obj\LedActiveTask.o" lastModified="15b12812617"/>
+         <source file="..\obj\heap_2.o" lastModified="15b128126ba"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="15b12812741"/>
+      </target>
+   </processor>
+</history>
